@@ -1,0 +1,1 @@
+az vm create --name myDemoVm --resource-group CloudTrainer --location eastus --image Win2022AzureEditionCore --public-ip-sku Standard --admin-username azureuser --admin-password Mypassword12

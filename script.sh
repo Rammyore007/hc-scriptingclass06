@@ -10,7 +10,7 @@ DEPLOYMENT_SOURCE=https://github.com/Azure-Samples/html-docs-hello-world
 LOCATION=eastus
 
 # Create an App Service plan
-az appservice plan create --name $APPSERVICE_PLAN_NAME --resource-group $RESOURCE_GROUP_NAME --location $LOCATION --SKU F1
+az appservice plan create --name $APPSERVICE_PLAN_NAME --resource-group $RESOURCE_GROUP_NAME --location $LOCATION --sku f1
 
 # Create a Web app
 az webapp create -- name $WEBAPP_NAME --plan $APPSERVICE_PLAN_NAME --resource-group $RESOURCE_GROUP_NAME
